@@ -77,3 +77,16 @@ console.log("reverse() :", num.reverse());        // reverse array
 
 let nestedArr = [1, 2, [3, 4], [5, 6, [7, 8]]];
 console.log("flat() :", nestedArr.flat(2));       // flatten nested array
+
+
+//array distincturing
+let array = [10, 20, 30, 40, 50];
+const [first, second, ...rest] = array;
+console.log("First Element :", first);
+console.log("Second Element :", second);
+console.log("Rest Elements :", rest);
+
+//skipping values
+let array1 = [1,2,3,4]
+const [ , , thirdElement ] = array1;
+console.log("Third Element :", thirdElement);
