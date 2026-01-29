@@ -38,3 +38,6 @@ console.log("Concatenated String:", concatStr); //concat value
 
 let splitStr = str.split(" ");
 console.log("Split String:", splitStr); //split value into array
+
+
+
